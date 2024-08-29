@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show</title>
+</head>
+<body>
+<h1>Show and Celebrity</h1>
+    <ol type = "I">
+    <li><h3>TV Show</h3></li>
+      <ol type = "A">
+        <li>GMA</li>
+          <ul type = "circle">
+            <li>24 Oras</li>
+            <li>Family Feud</li>
+            <li>Black Rider</li>
+          </ul>
+        <li>ABS-CBN</li>
+          <ul type = "circle">
+            <li>TV Patrol</li>
+            <li>Pamilya Sagrado</li>
+            <li>The Marriage Consequences</li>
+          </ul>
+        <li>TV5</li>
+          <ul type = "circle">
+            <li>Batang Quiapo</li>
+            <li>Frontline Pilipinas</li>
+            <li>Eat Bulaga</li>
+          </ul>
+      </ol>
+    <li><h3>Movie Show</h3></li>
+      <ol type = "A">
+        <li>GMA</li>
+          <ul type = "circle">
+            <li>Boy Pick-Up</li>
+            <li>Sosy Problems</li>
+            <li>Alaala: A Martial Special</li>
+          </ul>
+        <li>ABS-CBN</li>
+          <ul type = "circle">
+            <li>2 Good 2 be True</li>
+            <li>Linlang</li>
+            <li>He's Into Her</li>
+          </ul>
+        <li>TV5</li>
+          <ul type = "circle">
+            <li>Lumuhod ka sa lupa</li>
+            <li>Kidlat</li>
+            <li>Enchanted Garden</li>
+          </ul>
+      </ol>
+    <li><h3>Celebrity</h3></li>
+      <ol type = "A">
+        <li>GMA</li>
+          <ul type = "circle">
+            <li>Alden Richards</li>
+            <li>Bianca Umali</li>
+            <li>Jak Roberto</li>
+          </ul>
+        <li>ABS-CBN</li>
+          <ul type = "circle">
+            <li>Kitchie Nadal</li>
+            <li>Toni Gonzaga</li>
+            <li>Paul Soriano</li>
+          </ul>
+        <li>TV5</li>
+          <ul type = "cricle">
+            <li>Bayani Agbayani</li>
+            <li>Allan K.</li>
+            <li>Ryan Agoncillo</li>
+          </ul>
+      </ol>
+    </ol>
+    
+</body>
+</html>
