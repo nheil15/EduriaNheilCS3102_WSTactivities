@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(90deg, #b50707, #ab5324, #c5c52b);
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #ffffff, #000000);
+    color: #fff;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+section.vision-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quotes-goals-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.quotes-section, .goals-section {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.board-section {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.quotes blockquote {
+    position: relative;
+    padding: 10px;
+    font-style: italic;
+    color: #555;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.quotes .author {
+    display: inline-block;
+    transition: opacity 0.3s;
+}
+
+.quotes .quote {
+    display: none;
+}
+
+.quotes blockquote:hover .author {
+    opacity: 0;
+}
+
+.quotes blockquote:hover .quote {
+    display: inline;
+}
+
+.goals .goal {
+    position: relative;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.goal-title {
+    display: inline-block;
+    transition: opacity 0.3s;
+}
+
+.goal-description {
+    display: none;
+}
+
+.goal:hover .goal-title {
+    opacity: 0;
+}
+
+.goal:hover .goal-description {
+    display: inline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(90deg, #ffffff, #000000);
+    color: #fff;
+    margin-top: 30px;
+}
